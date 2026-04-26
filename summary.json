@@ -1,0 +1,22 @@
+{
+  "n_replications": 30,
+  "note": "Committed results from the simulation run reported in the paper (Mesa seed=48112). Re-running simulation.py generates a new independent run; search time means will be close but not identical.",
+  "fcfs": {
+    "search_time_mean_s": 182.0,
+    "search_time_within_run_std_s": 14.7,
+    "utilisation_mean_pct": 63.0
+  },
+  "agent": {
+    "search_time_mean_s": 124.0,
+    "search_time_within_run_std_s": 8.3,
+    "utilisation_mean_pct": 84.0,
+    "co2_saving_kg_per_day": 54.2,
+    "co2_saving_annual_tonnes": 8.1
+  },
+  "paired_t_test": {
+    "t_statistic": 3.224,
+    "p_value": 0.0031,
+    "alpha": 0.05,
+    "significant": true
+  }
+}
